@@ -1,0 +1,33 @@
+{
+  "test_mae": 1.1556066686261797,
+  "test_rmse": 1.5038487846440862,
+  "test_r2": 0.794991135597229,
+  "n_train": 142859,
+  "n_val": 44045,
+  "n_test": 32002,
+  "epochs": 500,
+  "batch_size": 16384,
+  "lr": 0.001,
+  "n_samples": 1000000,
+  "weighted_loss": true,
+  "split_mode": "spatial",
+  "exclude_features": [
+    "T_air_C",
+    "MRT",
+    "RH",
+    "wind_speed",
+    "SSRD"
+  ],
+  "active_features": [
+    "elevation",
+    "slope",
+    "aspect",
+    "NDVI",
+    "FVC",
+    "ALBEDO",
+    "EMIS",
+    "LST",
+    "landcover"
+  ],
+  "in_dim": 13
+}
